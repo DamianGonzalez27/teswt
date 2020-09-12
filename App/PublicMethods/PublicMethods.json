@@ -1,0 +1,34 @@
+{
+    "InitActions": {
+        "InitMethod": {
+        "public": true,
+        "array" : {},
+        "string": "string",
+        "integer" : "int"
+        }
+    },
+    "ProductsActions": {
+        "ListaProductos": {
+            "public": true
+            },
+        "CrearProducto":{
+            "public": true,
+            "id": "int",
+            "descripcion": "string",
+            "price": "int"
+        },
+        "EditarProducto": {
+            "public": true,
+            "id": "int",
+            "descripcion": "string"
+        },
+        "EliminarProducto": {
+            "public": true,
+            "id": "int"
+        },
+        "MostrarProducto": {
+            "public": true,
+            "id": "int"
+        }
+        }
+}
